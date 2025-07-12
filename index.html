@@ -12,12 +12,17 @@
         --color-clifford: #da373d;
       }
     </style>
+    <style>
+        .products {
+            scrollbar-width: none;
+        }
+    </style>
 </head>
 
-<body>
-    <div class="main bg-gray-200 w-[100vw] ">
-        <nav class="w-full h-14 bg-red-200 flex  items-center justify-between px-6 shrink-0">
-            <i class="ri-apple-fill  text-xl"></i>
+<body class="bg-gray-100 overflow-x-hidden">
+    <div class="main  w-[100vw] ">
+        <nav class="w-full h-10 flex items-center justify-between px-6  shrink-0">
+            <i class="ri-apple-fill text-xl"></i>
             <div class="navElem flex sm:gap-8 hidden md:flex text-sm">
                 <a href="#">Store</a>
                 <a href="#">Mac</a>
@@ -37,6 +42,101 @@
                 <i class="ri-align-justify md:hidden"></i>
             </div>
         </nav>
+        <div
+            class="notice w-full min-h-14 h-fit bg-white flex justify-center items-center px-10 text-[15px] text-center py-6 ">
+            <p>Get up to 12 months of No Cost EMIfootnote§ plus up to ₹8000.00 instant cashbackfootnote§§ on selected
+                products with eligible cards.<a href="" class="text-blue-600 pl-2">See offers<i
+                        class="ri-add-circle-line pl-1"></i></a></p>
+
+        </div>
+        <div
+            class="heading grid sm:grid-cols-12 items-center w-full min-h-[50vh] h-fit  px-6 pt-8 pb-4  font-semibold md:gap-4 ">
+            <h1 class="sm:col-span-8 text-3xl md:text-5xl">Store. <span class="text-gray-500"> The best way to buy the
+                    products you
+                    love.</span></h1>
+            <div class="sm:col-span-4 md:justify-items-end text-sm sm:text-md lg:2xl  ">
+                <div class=" flex flex-col gap-4">
+                    <div class="flex justify-start items-center gap-4">
+                        <div
+                            class="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[url('https://plus.unsplash.com/premium_photo-1678197937465-bdbc4ed95815?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGVyc29ufGVufDB8fDB8fHww')] bg-cover bg-center">
+                        </div>
+                        <div class="text">
+                            <p class="font-bold">Need shopping help?</p>
+                            <a href="#" class="text-blue-400 font-thin">Ask a Specialist <i
+                                    class="ri-arrow-right-up-line"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-start items-center gap-4 ">
+                        <div
+                            class="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[url('https://images.unsplash.com/photo-1619468129361-605ebea04b44?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9jYXRpb258ZW58MHx8MHx8fDA%3D')] bg-cover bg-center">
+                        </div>
+                        <div class="text">
+                            <p class="font-bold">Visit an apple store</p>
+                            <a href="#" class="text-blue-400 font-thin">Find one near you <i
+                                    class="ri-arrow-right-up-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="products w-full h-40 sm:h-50 py-4 flex items-center overflow-x-scroll "
+            style="scrollbar-width: none;">
+            <div class="productsList h-full flex justify-center items-center ">
+                <div class="card p-4 flex flex-col justify-center items-center w-25 sm:w-40 md:55 ">
+                    <img class="w-full h-full shrink-0"
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-mac-nav-202503?wid=400&hei=260&fmt=png-alpha&.v=M1Q3OGxnb1lBaHhqNjZ2OVRXZmx4VEpBUDFBeEhMZS9GUnNSYXdEd0hscisrUlZaSVRoWVYzU0Qra0FoTmUwNng2bitObzZwQzk4cEorV1dZdzhIazVVcFlOTkdoMWg4ZkdDS1ovMUlzcW8"
+                        alt="">
+                    <p class="text-sm mt-2">mac</p>
+                </div>
+                <div class="card p-4 flex flex-col justify-center items-center w-25 sm:w-40 md:55 ">
+                    <img class="w-full h-full"
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-iphone-nav-202502?wid=400&hei=260&fmt=png-alpha&.v=dW5XbHI1eDVpd01qWUU4bFRtWGZXOG9vbGw5MnhRZ3BpYVMwQTIvb2xsaDVoZlhhY1p4QWdsTjFNaGRHM3FYWW15d1FhSDJ0bkR0ZGZtUjZJNmFveFVockp1czQ4Q0pvWUU1bC9ERnl2dFE"
+                        alt="">
+                    <p class="text-sm mt-2">iPhone</p>
+                </div>
+                <div class="card p-4 flex flex-col justify-center items-center w-25 sm:w-40 md:55  ">
+                    <img class="w-full h-full"
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-ipad-nav-202405?wid=400&hei=260&fmt=png-alpha&.v=dW5XbHI1eDVpd01qWUU4bFRtWGZXNGFLQTJVNnlNQmQrVmRBYnZYei9jckUzelNmMnRxajE0NHhmMWtLazl6eG53M0FRZHBXNTh1U1lFVEtSR2YzTm5qbE56RWRpRFNIRXZvbkd2S0l5dTg"
+                        alt="">
+                    <p class="text-sm mt-2">iPad</p>
+                </div>
+                <div class="card p-4 flex flex-col justify-center items-center w-25 sm:w-40 md:55  ">
+                    <img class="w-full h-full"
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-watch-nav-202409?wid=400&hei=260&fmt=png-alpha&.v=S0tSVzBtSkRkSFFhMm1zS1NmeWtkNDJNVmlnVytwalkvOTJ2M1BKWUREdkh5NTJ6cGtEemJOblBHR043ZjFkZzAzOVFHb3N0MkVmS01ZcFh0d1Y4R2oxdUo4aWtyK05IRkZuWjBWbW5HM00"
+                        alt="">
+                    <p class="text-sm mt-2">Apple Watch</p>
+                </div>
+                <div class="card p-4 flex flex-col justify-center items-center w-25 sm:w-40 md:55  ">
+                    <img class="w-full h-full"
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-airpods-nav-202409?wid=400&hei=260&fmt=png-alpha&.v=Q0Z1bWFqMUpRRnp3T0Y0VWJpdk1yNlJ5eGFhR1FVd2NNNDB0VWRUSzVCUFd1aTN5QlRYNG5PRjJxc2d1RklXbVM0TjRWdzF2UjRGVEY0c3dBQVZ6VFI0R1M4eFpKRTFIclV0ZHRqakVRd1k"
+                        alt="">
+                    <p class="text-sm mt-2">AirPods</p>
+                </div>
+                <div class="card p-4 flex flex-col justify-center items-center w-25 sm:w-40 md:55  ">
+                    <img class="w-full h-full"
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=400&hei=260&fmt=png-alpha&.v=Q0Z1bWFqMUpRRnp3T0Y0VWJpdk1ydzduWDk4YUM5R1JVL2gwcEZnWWNaRFd1aTN5QlRYNG5PRjJxc2d1RklXbVM0TjRWdzF2UjRGVEY0c3dBQVZ6VFpQclc0OVE3cmhmS3FBaXd6cG8yYzg"
+                        alt="">
+                    <p class="text-sm mt-2">Airtags</p>
+                </div>
+                <div class="card p-4 flex flex-col justify-center items-center w-25 sm:w-40 md:55  ">
+                    <img class="w-full h-full"
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=400&hei=260&fmt=png-alpha&.v=T0wvM1N3YUcxQ09qK0VNRkl1RU1BZFM5WnN0RmVZRmVXQ0FCUWJjbnJDald1aTN5QlRYNG5PRjJxc2d1RklXbVM0TjRWdzF2UjRGVEY0c3dBQVZ6VFZ3YmJrVi9SakQxWUcrYWQwVXc5VTA"
+                        alt="">
+                    <p class="text-sm mt-2">Apple TV 4K</p>
+                </div>
+                <div class="card p-4 flex flex-col justify-center items-center w-25 sm:w-40 md:55 ">
+                    <img class="w-full h-full"
+                        src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=400&hei=260&fmt=png-alpha&.v=WVcvamRucHVMMWs5SXZ3bVJ3Q2hpZGR0czFXNWdCUW14eTN2U29pLzNMcld1aTN5QlRYNG5PRjJxc2d1RklXbVM0TjRWdzF2UjRGVEY0c3dBQVZ6VFJmbWU0TjJLamxsdTltNkZVZ1RhbDA"
+                        alt="">
+                    <p class="text-sm mt-2">HomePod</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
